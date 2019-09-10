@@ -39,3 +39,6 @@ Push everything to the new repo
 ```
 git push origin master
 ```
+
+Once you have done this, update the Github URL on the app list : 
+https://docs.google.com/spreadsheets/d/1NRS1QHoYUca3jKZgMAO2WAkkRGhP9qTUQ_3MDVgtuAU/edit#gid=2116302117
