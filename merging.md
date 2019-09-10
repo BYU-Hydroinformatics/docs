@@ -21,7 +21,7 @@ $ git checkout master
 $ git branch -m master-holder
 ```
 
-Pull all the code of the BYU-Hydroinformatics branch into your local repo.
+Pull all the code of the BYU-Hydroinformatics repo into your local repo.
 ```
 $ git fetch
 $ git checkout master
