@@ -6,6 +6,11 @@
 
 ```sh
 docker run --rm --name rapid -it -v $(pwd)/rapid-io/input/sam_atrato:/home/rapid/run -v $(pwd)/rapid-io/output/sam_atrato:/home/rapid/run/output chdavid/rapid
+
+
+#FOR WINDOWS
+
+docker run --rm --name rapid -it -v $(PWD)/rapid-io/input/sam_atrato:/home/rapid/run -v $(PWD)/rapid-io/output/sam_atrato:/home/rapid/run/output chdavid/rapid
 ```
 
 -   Symlink rapid executable to our run location:
@@ -14,8 +19,9 @@ docker run --rm --name rapid -it -v $(pwd)/rapid-io/input/sam_atrato:/home/rapid
 ln -s /home/rapid/src/rapid /home/rapid/run/rapid
 ```
 
--   Run Rapid! : /home/rapid/src/rapid
+-   Run Rapid! : /home/rapid/run/rapid
 
 ```sh
-/home/rapid/src/rapid
+cd /home/rapid/run
+./rapid
 ```
